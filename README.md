@@ -1,5 +1,9 @@
 # @grnet/docusaurus-terminology
 
+## NOTICE
+
+This package is a fork of [@grnet/webpack-terms-replace-loader](https://github.com/grnet/webpack-terms-replace-loader) by GRNET Developers.
+
 ## Overview
 
 This Docusaurus plugin allows you to use standout terms in your pages, which, when hovered over, displays a short explanation, and when clicked, navigates you to the relevant page. The plugin parses all `*.md` and `*.mdx` files and replaces each markdown hyperlink pattern with a `<a>` HTML tag supporting a tooltip functionality. Additionally, it generates a glossary with all terms found in the markdown files.

@@ -6,7 +6,7 @@
   "nodeSupportedVersionRange": ">=18.0.0",
   "gitPolicy": {},
   "repository": {
-    "url": "git@github.com:grnet/docusaurus-terminology.git",
+    "url": "https://github.com/adriaandh/docusaurus-terminology.git",
     "defaultBranch": "main",
     "defaultRemote": "origin"
   },
@@ -19,37 +19,37 @@
   "variants": [],
   "projects": [
     {
-      "packageName": "@grnet/docusaurus-terminology",
+      "packageName": "@adriaandehaan/docusaurus-terminology",
       "projectFolder": "plugins/docusaurus-terminology",
       "shouldPublish": true
     },
     {
-      "packageName": "@grnet/terminology-store",
+      "packageName": "@adriaandehaan/terminology-store",
       "projectFolder": "plugins/terminology-store",
       "shouldPublish": true
     },
     {
-      "packageName": "@grnet/webpack-glossary-loader",
+      "packageName": "@adriaandehaan/webpack-glossary-loader",
       "projectFolder": "plugins/webpack-glossary-loader",
       "shouldPublish": true
     },
     {
-      "packageName": "@grnet/webpack-terms-loader",
+      "packageName": "@adriaandehaan/webpack-terms-loader",
       "projectFolder": "plugins/webpack-terms-loader",
       "shouldPublish": true
     },
     {
-      "packageName": "@grnet/webpack-terms-replace-loader",
+      "packageName": "@adriaandehaan/webpack-terms-replace-loader",
       "projectFolder": "plugins/webpack-terms-replace-loader",
       "shouldPublish": true
     },
     {
-      "packageName": "@grnet/docusaurus-glossary-view",
+      "packageName": "@adriaandehaan/docusaurus-glossary-view",
       "projectFolder": "libs/glossary-view",
       "shouldPublish": true
     },
     {
-      "packageName": "@grnet/docusaurus-term-preview",
+      "packageName": "@adriaandehaan/docusaurus-term-preview",
       "projectFolder": "libs/term-preview",
       "shouldPublish": true
     },

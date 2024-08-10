@@ -1,11 +1,13 @@
-const parseMD = require('parse-md').default;
 const store = require('@grnet/terminology-store');
 const path = require('path');
 const pkgUp = require('pkg-up');
 const pkg = pkgUp.sync({ cwd: process.cwd() });
 const root = process.platform === 'win32' ? path.win32.dirname(pkg) : path.dirname(pkg);
+const parseMDModule = require('parse-md');
 
-module.exports = function(source) {
+
+module.exports = async function(source) {
+  const parseMD = parseMDModule.default || parseMDModule;
   const urlsRegex = /(?<!!)\[[^\]]+\]\([^)]+\)/g;
   const urlRegex =  /\[\s*(.*?)\s*\]\((.*?)\)/s;
   const urls = source.match(urlsRegex) || [];

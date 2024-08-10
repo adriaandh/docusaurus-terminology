@@ -59,7 +59,7 @@ const config = {
   ],
 
   plugins: [
-    ['@grnet/docusaurus-terminology', {
+    ['@adriaandehaan/docusaurus-terminology', {
       termsDir: './docs/01-meta/terms',
       docsDir: './docs/',
       glossaryFilepath: './docs/01-meta/02-glossary.md'

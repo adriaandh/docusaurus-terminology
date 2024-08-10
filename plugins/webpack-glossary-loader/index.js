@@ -1,8 +1,9 @@
-const parseMD = require('parse-md').default;
-const store = require('@grnet/terminology-store');
-const path = require('path');
+const store = import('@grnet/terminology-store');
+const path = import('path');
+const parseMDModule = require('parse-md');
 
-module.exports = function(source) {
+module.exports = async function(source) {
+  const parseMD = parseMDModule.default || parseMDModule;
   const urls = store.terms;
   const importStatement = `
 import Glossary from "${ this.query.glossaryComponentPath || "@grnet/docusaurus-glossary-view"}";

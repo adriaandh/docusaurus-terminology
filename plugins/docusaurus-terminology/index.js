@@ -27,7 +27,7 @@ module.exports = function (context, options) {
   const glossaryRegex = new RegExp(`${glossaryPath}`);
 
   try {
-    fs.rmdirSync('node_modules/.cache', { recursive: true })
+    fs.rmSync('node_modules/.cache', { recursive: true })
   } catch (err) {
 
   }
