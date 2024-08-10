@@ -1,8 +1,8 @@
-# @grnet/docusaurus-terminology
+# @adriaandehaan/docusaurus-terminology
 
 ## NOTICE
 
-This package is a fork of [@grnet/webpack-terms-replace-loader](https://github.com/grnet/webpack-terms-replace-loader) by GRNET Developers.
+This package is a fork of [@adriaandehaan/webpack-terms-replace-loader](https://github.com/grnet/webpack-terms-replace-loader) by GRNET Developers.
 
 ## Overview
 
@@ -19,13 +19,13 @@ Check for live example in [codesandbox](https://codesandbox.io/p/sandbox/sharp-s
 To use this plugin, you have to add it to your project as a npm package. You can do this by running the following command in your project's root directory:
 
 ```
-npm i @grnet/docusaurus-terminology --save
+npm i @adriaandehaan/docusaurus-terminology --save
 ```
 
 or
 
 ```
-yarn add @grnet/docusaurus-terminology
+yarn add @adriaandehaan/docusaurus-terminology
 ```
 
 Once the package is installed, you need to configure it in your Docusaurus site configuration file by adding the plugin to your `docusaurus.config.js` file:
@@ -34,7 +34,7 @@ Once the package is installed, you need to configure it in your Docusaurus site 
 module.exports = {
     ...
   plugins: [
-    ['@grnet/docusaurus-terminology', {
+    ['@adriaandehaan/docusaurus-terminology', {
       termsDir: './docs/terms',
       docsDir: './docs/',
       glossaryFilepath: './docs/glossary.md'
@@ -44,13 +44,13 @@ module.exports = {
 };
 ```
 
-There is the ability to use custom components for the glossary file and term preview tooltip, instead of using the ones provided by `@grnet/docusaurus-term-preview` and `@grnet/docusaurus-glossary-view`.
+There is the ability to use custom components for the glossary file and term preview tooltip, instead of using the ones provided by `@adriaandehaan/docusaurus-term-preview` and `@adriaandehaan/docusaurus-glossary-view`.
 
 To modify the default options, add the fields `glossaryComponentPath`, `termPreviewComponentPath` in the plugins section to provide the corresponding component paths (**relative to the `/docs` folder**):
 
 ```
 plugins: [
-    ['@grnet/docusaurus-terminology', {
+    ['@adriaandehaan/docusaurus-terminology', {
       ...
       glossaryComponentPath: 'relative/path/to/your/component',
       termPreviewComponentPath: 'relative/path/to/your/component',
@@ -93,7 +93,7 @@ This renders the hyperlink "This is the example-term", and displays the "hoverTe
 ## How it works
 This plugin retrieves docs in two ways:
 
-1. Parses all `*.md` and `*.mdx` files in the `docs/` directory and replaces each pattern `[term](path/to/term.md)` (markdown syntax for a hyperlink) with a `<a>` tag supporting tooltip functionality using the [@grnet/term-preview](https://www.npmjs.com/package/@grnet/docusaurus-term-preview) package that uses the [rc-tooltip](https://www.npmjs.com/package/rc-tooltip) under the hood.
+1. Parses all `*.md` and `*.mdx` files in the `docs/` directory and replaces each pattern `[term](path/to/term.md)` (markdown syntax for a hyperlink) with a `<a>` tag supporting tooltip functionality using the [@adriaandehaan/term-preview](https://www.npmjs.com/package/@adriaandehaan/docusaurus-term-preview) package that uses the [rc-tooltip](https://www.npmjs.com/package/rc-tooltip) under the hood.
 2. Creates a glossary with all the terms from markdown files that are listed in the `docs/terms/`.
 
 In greater depth:
@@ -130,16 +130,16 @@ The plugin creates a glossary that aggregates all of the terms from the `docs/te
 
 ## Troubleshooting
 
-If you encounter any issues with the @grnet/docusaurus-terminology plugin, please check the following:
+If you encounter any issues with the @adriaandehaan/docusaurus-terminology plugin, please check the following:
 * Ensure that you have installed it correctly and added it to your site configuration file.
 * Make sure that you add/edit markdown files under the `/docs/terms` directory and the hyperlink pattern `[term](path/to/term.md)` you are using to define the term is correct. Both the term's id and filename must match.
 * If you are still encountering issues, please submit a bug report or contact the plugin maintainer for support.
 
 ## Contributing
 
-If you would like to contribute to the development of the @grnet/docusaurus-terminology plugin, you can do so by submitting issues or pull requests on the GitHub repository.
+If you would like to contribute to the development of the @adriaandehaan/docusaurus-terminology plugin, you can do so by submitting issues or pull requests on the GitHub repository.
 
 ## License
 
-The @grnet/docusaurus-terminology plugin is released under the BSD-2-Clause.
+The @adriaandehaan/docusaurus-terminology plugin is released under the BSD-2-Clause.
 

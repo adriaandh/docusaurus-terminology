@@ -10,7 +10,7 @@ import Link from '@docusaurus/Link';
 
 | Link example                             | Description                                     |
 |------------------------------------------|------------------------------------------|
-|  [example link](./terms/example-term.mdx) | Using the @grnet/docusaurus-terminology plugin  |
+|  [example link](./terms/example-term.mdx) | Using the @adriaandehaan/docusaurus-terminology plugin  |
 |  [md link in documents](./tutorial-basics/congratulations) | Using the classic md link  |
 |  <a href="https://www.example.com/">a tag example</a> | Using `<a>...</a>` tag  |
 |  <Link to="https://www.example.com/">Link docusaurus example</Link> | Using the component Link from `@docusaurus/Link`  |

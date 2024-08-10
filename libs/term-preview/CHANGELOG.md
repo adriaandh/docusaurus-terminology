@@ -1,4 +1,4 @@
-# Change Log - @grnet/docusaurus-term-preview
+# Change Log - @adriaandehaan/docusaurus-term-preview
 
 This log was last generated on Tue, 06 Feb 2024 13:28:45 GMT and should not be manually modified.
 

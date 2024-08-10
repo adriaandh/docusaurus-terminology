@@ -1,4 +1,4 @@
-# Change Log - @grnet/terminology-store
+# Change Log - @adriaandehaan/terminology-store
 
 This log was last generated on Tue, 06 Feb 2024 13:28:45 GMT and should not be manually modified.
 

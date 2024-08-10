@@ -1,4 +1,4 @@
-# Change Log - @grnet/docusaurus-glossary-view
+# Change Log - @adriaandehaan/docusaurus-glossary-view
 
 This log was last generated on Thu, 01 Jun 2023 13:22:31 GMT and should not be manually modified.
 

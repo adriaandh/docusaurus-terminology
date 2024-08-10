@@ -1,4 +1,4 @@
-# Change Log - @grnet/docusaurus-terminology
+# Change Log - @adriaandehaan/docusaurus-terminology
 
 This log was last generated on Thu, 01 Jun 2023 13:22:31 GMT and should not be manually modified.
 
