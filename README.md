@@ -2,7 +2,7 @@
 
 ## NOTICE
 
-This package is a fork of [@adriaandehaan/webpack-terms-replace-loader](https://github.com/grnet/webpack-terms-replace-loader) by GRNET Developers.
+This package is a fork of [@grnet/webpack-terms-replace-loader](https://github.com/grnet/webpack-terms-replace-loader) by GRNET Developers.
 
 ## Overview
 
